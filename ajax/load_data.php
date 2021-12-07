@@ -1,8 +1,7 @@
 <?php 
 
 include("../connection.php");
-require_once ("../settings/db_class.php");
-$dbs = new db_connection;
+
 if (isset($_POST['page'])) {
 	$page = $_POST['page'];
 }else{
