@@ -12,7 +12,7 @@ if (isset($_POST['page'])) {
 $pagination = "";
 $limit = 15;
 $start = ($page - 1)* $page;
-$pages = mysqli_query($connect,"SELECT count(id) AS id FROM images");
+$pages = mysqli_query($conn,"SELECT count(id) AS id FROM images");
 while ($row = mysqli_fetch_array($pages)) {
 	$total = $row['id'];
 	$count = ceil($total / $limit);
