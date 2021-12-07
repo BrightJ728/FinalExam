@@ -1,5 +1,5 @@
 <?php
-//connect to User class
+//connect to image class
 require_once (dirname(__FILE__)).'/../models/post_image.php';
 
 function image_upload($name,$image, $description,$price){
