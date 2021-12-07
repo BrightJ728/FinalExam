@@ -3,7 +3,7 @@
 
 	$dbhost = "localhost";
 	$dbuser = "root";
-	$dbpass = "";
+	$dbpass = "1B3GoD3IS512LOve";
 	$dbname = "fashion";
 
 	//Create Connection
